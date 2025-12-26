@@ -1,14 +1,25 @@
 {
   "name": "mc-banner-renderer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisgbr1el/mc-banner-renderer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisgbr1el/mc-banner-renderer/issues"
+  },
+  "homepage": "https://github.com/luisgbr1el/mc-banner-renderer#README",
   "scripts": {
     "test": "node example.js"
   },
-  "author": "luisgbr1el",
+  "author": {
+    "name": "Luis Gabriel Araújo",
+    "email": "luisgabrielaraujo8@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "sharp": "^0.33.5"
   },
-  "description": "Minecraft banner renderer that generates PNG images and returns them in base64"
+  "description": "A Node.js package that renders Minecraft banners (version 1.21) as 3D isometric items and returns them as PNG in base64 format."
 }
