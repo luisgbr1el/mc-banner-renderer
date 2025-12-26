@@ -1,0 +1,14 @@
+{
+  "name": "mc-banner-renderer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "author": "luisgbr1el",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "description": "Minecraft banner renderer that generates PNG images and returns them in base64"
+}
